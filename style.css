@@ -5,8 +5,8 @@
     --vddBlue: hsl(238, 29%, 16%);
     --softBlue: hsl(240, 73%, 65%);
     /* Background Gradient */
-    --softViolet: hsl(273, 75%, 66%);
-    --softBlue: hsl(240, 73%, 65%);
+    --softViolet: rgb(175, 103, 233);
+    --softBlue: rgb(101, 101, 231);
     /* Text */
     --vdgBlue: hsl(237, 12%, 33%);
     --dgBlue: hsl(240, 6%, 50%);
@@ -21,6 +21,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background: linear-gradient(0deg, rgba(101,101,231,1) 25%, rgba(175,103,233,1) 75%); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container {
     width: 80%;
