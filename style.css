@@ -15,3 +15,10 @@
     /* Fonts */
     --mainFont: 'Kumbh Sans', sans-serif;
 }
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
