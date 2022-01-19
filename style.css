@@ -34,3 +34,11 @@ body {
     margin: 2rem auto;
     background: white;
 }
+.content-left {
+    width: 50%;
+    background: lightgrey;
+}
+.content-right {
+    width: 50%;
+    background: lightgrey;
+}
