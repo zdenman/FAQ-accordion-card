@@ -74,6 +74,9 @@ body {
     width: .8rem;
     height: .6rem;
 }
+.accordion-item-header.active img {
+    transform: rotate(180deg);
+}
 .separator {
 border-top: 2px solid var(--lgBlue);
 padding-top: .8rem;
