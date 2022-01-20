@@ -58,12 +58,18 @@ body {
     padding-bottom: 1rem;
 }
 .accordion-item-header{
+    display: flex;
+    justify-content: space-between;
     padding-bottom: 1rem;
     font-weight: 700;
 }
 .accordion-item-header:hover {
     cursor: pointer;
     color: var(--softRed);
+}
+.separator {
+border-top: 2px solid var(--lgBlue);
+padding-top: .8rem;
 }
 #desktop1,
 #desktop2,
