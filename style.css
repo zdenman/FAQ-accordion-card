@@ -28,6 +28,7 @@ body {
     background-size: cover;
 }
 .container {
+    display: flex;
     width: 80%;
     max-width: 1440px;
     min-height: 900px;
@@ -35,10 +36,25 @@ body {
     background: white;
 }
 .content-left {
+    position: relative;
     width: 50%;
-    background: lightgrey;
 }
 .content-right {
     width: 50%;
-    background: lightgrey;
+}
+#desktop1,
+#desktop2,
+#desktop3 {
+    display: block;
+    position: absolute;
+}
+#desktop1,
+#desktop2 {
+    width: 100%;
+    top: 5rem;
+    left: -3rem;
+}
+#desktop3 {
+    top: 10rem;
+    left: -8rem
 }
