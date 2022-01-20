@@ -10,6 +10,7 @@
     /* Text */
     --vdgBlue: hsl(237, 12%, 33%);
     --dgBlue: hsl(240, 6%, 50%);
+    --softRed: hsl(14, 88%, 65%);
     /* Dividers */
     --lgBlue: hsl(240, 5%, 91%);
     /* Fonts */
@@ -31,7 +32,7 @@ body {
     display: flex;
     width: 80%;
     max-width: 1440px;
-    min-height: 900px;
+    /* min-height: 900px; */
     margin: 2rem auto;
     background: white;
 }
@@ -41,6 +42,27 @@ body {
 }
 .content-right {
     width: 50%;
+    font-family: var(--mainFont);
+}
+.content-right h2 {
+    padding: 1.5rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+/* Accordion Styling */
+.accordion {
+    padding: 0 1rem 3rem 0;
+}
+.accordion-item {
+    padding-bottom: 1rem;
+}
+.accordion-item-header{
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+.accordion-item-header:hover {
+    cursor: pointer;
+    color: var(--softRed);
 }
 #desktop1,
 #desktop2,
@@ -56,5 +78,5 @@ body {
 }
 #desktop3 {
     top: 10rem;
-    left: -8rem
+    left: -8rem;
 }
