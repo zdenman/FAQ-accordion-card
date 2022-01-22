@@ -63,23 +63,23 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 1rem;
-    font-weight: 700;
+    /* font-weight: 700; */
+}
+.accordion-item-header img {
+    height: .5rem;
+    width: .5rem;
 }
 .accordion-item-header:hover {
     cursor: pointer;
     color: var(--softRed);
 }
-.accordion-item-header img {
-    display: block;
-    width: .8rem;
-    height: .6rem;
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
 }
-.accordion-item-header.active img {
-    transform: rotate(180deg);
-}
-.separator {
-border-top: 2px solid var(--lgBlue);
-padding-top: .8rem;
+.active {
+    font-weight: bold;
 }
 #desktop1,
 #desktop2,
