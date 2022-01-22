@@ -34,8 +34,7 @@ body {
     display: flex;
     width: 80%;
     max-width: 56rem;
-    /* min-height: 900px; */
-    margin: 5rem auto;
+    margin: 8rem auto;
     background: white;
     border-radius: 2rem;
 }
@@ -104,4 +103,16 @@ body {
 #desktop3 {
     top: 10rem;
     left: -8rem;
+}
+
+/* Responsive */
+ 
+@media (max-width: 62.5em) {
+    .container {
+        flex-direction: column;
+    }
+    .content-left,
+    .content-right {
+        width: 100%;
+    }
 }
