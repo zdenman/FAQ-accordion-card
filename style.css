@@ -104,6 +104,10 @@ body {
     top: 10rem;
     left: -8rem;
 }
+#mobile1,
+#mobile2 {
+    display: none;
+}
 
 /* Responsive */
  
@@ -115,4 +119,13 @@ body {
     .content-right {
         width: 100%;
     }
+    #desktop1,
+    #desktop2,
+    #desktop3 {
+        display: none;
+    }
+    #mobile1,
+    #mobile2 {
+    display: block;
+}   
 }
