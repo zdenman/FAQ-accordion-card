@@ -58,7 +58,7 @@ body {
     font-family: var(--mainFont);
 }
 .content-right h2 {
-    padding: 1.5rem 0;
+    padding: 2.5rem 0;
     font-weight: 700;
     font-size: 2rem;
 }
@@ -126,13 +126,35 @@ body {
 
 /* Responsive */
  
-@media (max-width: 62.5em) {
+@media (max-width: 65.5em) {
     .container {
+        margin-top: 9rem;
         flex-direction: column;
+        max-width: 300px;
     }
     .content-left,
     .content-right {
         width: 100%;
+
+    }
+    .content-left {
+        margin: 0;
+        overflow: visible;
+        max-height: 4rem;
+    }
+    .content-right {
+        margin-top: 3rem;
+    }
+    .accordion {
+        padding: 1rem;
+    }
+    .content-right h2 {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .accordion-item {
+        font-size: 12px;
     }
     #desktop1,
     #desktop2,
@@ -142,5 +164,24 @@ body {
     #mobile1,
     #mobile2 {
     display: block;
-}   
+    } 
+    #mobile1 {
+        max-width: 70%;
+        margin: auto;
+        transform: translateY(-.5rem);
+    }  
+    .mobile-container {
+        position: relative;
+        /* left: 25%; */
+    }
+    #mobile2 {
+        /* position: absolute; */
+        max-width: 70%;
+        margin: auto;
+        /* left: 17%; */
+        
+        top: -8rem;
+        transform: translateY(-12rem);
+        
+    }
 }
