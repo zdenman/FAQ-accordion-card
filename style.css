@@ -37,10 +37,21 @@ body {
     margin: 8rem auto;
     background: white;
     border-radius: 2rem;
+    box-shadow: 0 1rem 3rem -1rem #222;
 }
 .content-left {
     position: relative;
     width: 50%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.box-container {
+    width: auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 99;
 }
 .content-right {
     width: 50%;
@@ -97,12 +108,16 @@ body {
 #desktop1,
 #desktop2 {
     width: 100%;
-    top: 5rem;
-    left: -3rem;
+    height: auto;
+    max-width: 25rem;
+    top: 3rem;
+    /* left: -3rem; */
+    transform: translateX(-4rem);
+    overflow: hidden;
 }
 #desktop3 {
-    top: 10rem;
-    left: -8rem;
+    top: 9rem;
+    left: -7rem;
 }
 #mobile1,
 #mobile2 {
