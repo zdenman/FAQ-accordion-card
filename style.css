@@ -28,7 +28,6 @@ body {
     background: linear-gradient(0deg, rgba(101,101,231,1) 25%, rgba(175,103,233,1) 75%); 
     background-repeat: no-repeat;
     min-height: 100vh;
-    /* background-size: cover; */
 }
 .container {
     display: flex;
@@ -111,7 +110,6 @@ body {
     height: auto;
     max-width: 25rem;
     top: 3rem;
-    /* left: -3rem; */
     transform: translateX(-4rem);
     overflow: hidden;
 }
@@ -172,14 +170,10 @@ body {
     }  
     .mobile-container {
         position: relative;
-        /* left: 25%; */
     }
     #mobile2 {
-        /* position: absolute; */
         max-width: 70%;
         margin: auto;
-        /* left: 17%; */
-        
         top: -8rem;
         transform: translateY(-12rem);
         
